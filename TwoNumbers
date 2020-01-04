@@ -1,0 +1,28 @@
+/*
+PROJECT SUM-THE-NUMBERS
+ Project to help user to add up two numbers and 
+show the user the end number.
+ */
+package D0019_2018;
+
+import java.util.Scanner;
+
+public class TwoNumbers {
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int number1 = 0;
+        int number2 = 0;
+        System.out.print("Skriv in ett nummer: ");
+        number1 = sc.nextInt();
+        System.out.print("Skriv in ditt andra nummer: ");
+        number2 = sc.nextInt();
+        
+        int TotalSum = number1 + number2;
+        System.out.println(" Totala summan av dina tal är: " + TotalSum);
+        
+        
+        
+        
+    }
+    
+}
