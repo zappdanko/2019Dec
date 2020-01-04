@@ -1,0 +1,19 @@
+/*
+G & S - metod
+
+Skapa det
+ */
+ 
+package D0019_2018;
+
+
+public class Account {
+    private String name;
+    
+    public void setName(String name){
+this.name = name;
+    }
+    public void getname(){
+        
+    }
+}
