@@ -1,0 +1,16 @@
+package D0019_2018;
+
+import javax.swing.JOptionPane;
+
+public class Välkommen {
+
+    public static void main(String[] arg) {
+        String namn;
+        String hälsning;
+
+        namn = JOptionPane.showInputDialog("Vad heter du");
+
+        hälsning = "välkommen " + namn;
+        System.out.println(hälsning);
+    }
+}
