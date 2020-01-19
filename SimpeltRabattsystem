@@ -1,0 +1,23 @@
+/*
+SIMPELT RABATT SYSTEM
+ */
+package DN0019;
+
+import java.util.Scanner;
+
+public class Rabatt {
+    public static void main (String[]args ){
+        double sum = 0.0;
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Skriv in ett tal: ");
+        sum = sc.nextDouble();
+        
+        if(sum > 1000){
+            sum = (double) sum * 0.9;
+            
+            
+        }
+        System.out.println("Slutsumman blir " + sum);
+}
+    }
