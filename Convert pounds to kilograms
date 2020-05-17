@@ -1,0 +1,16 @@
+Utmaningen är enkel. Konvertera a till b. Få in tänket helt enkelt.
+
+public class Main {
+
+    public static void main(String[] args) {
+  /*Convert a given number of pounds to kilograms
+  - p = kg. Var. till detta = double.
+  - 1 p = 0.45359237 kg
+   */
+   
+  double pound = 22;
+  double kilogram = (pound * 0.45359237);
+
+        System.out.println(kilogram);
+    }
+}
